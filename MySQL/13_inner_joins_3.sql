@@ -48,5 +48,3 @@ FROM
   JOIN courses c ON e.course_id = c.course_id
 GROUP BY
   c.course_name;
-
-  
